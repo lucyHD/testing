@@ -18,6 +18,7 @@ const arr = ()=>{
 module.exports ={
     add,
     someNames,
+    multiply,
     arr
 }
 
