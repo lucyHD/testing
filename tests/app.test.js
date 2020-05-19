@@ -8,11 +8,11 @@
 // //line 2 is importing from app.js 
 
 
-test("must return 4 when 2 and 2 are passed", ()=>{
+// test("must return 4 when 2 and 2 are passed", ()=>{
 
-    expect(app.multiply(2,2)).toBe(4);
+//     expect(app.multiply(2,2)).toBe(4);
 
-})
+// })
 
 // test("should contain Ben", () => {
 //     expect(app.someNames).toContain("Ben");
@@ -23,3 +23,8 @@ test("must return 4 when 2 and 2 are passed", ()=>{
 // test("must return array", () => {
 //     expect(app.arr).toBe("[]");
 // })
+
+test("must return close to 0.3 when 0.2 and 0.1 are passed", () => {
+    expect(app.add(0.2, 0.1)).toBeCloseTo(0.3); 
+
+})

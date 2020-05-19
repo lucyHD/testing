@@ -14,12 +14,14 @@ const arr = ()=>{
 }
 
 
+let coder = true;
 
 module.exports ={
     add,
-    someNames,
-    multiply,
-    arr
+    coder,
+    // someNames,
+    // multiply,
+    // arr
 }
 
 //want to export the function called add 
