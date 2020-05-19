@@ -28,3 +28,8 @@ test("must return close to 0.3 when 0.2 and 0.1 are passed", () => {
     expect(app.add(0.2, 0.1)).toBeCloseTo(0.3); 
 
 })
+
+test("should return a true value for coder", () => {
+    expect(app.coder).toBeTruthy();
+
+})
